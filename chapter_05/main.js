@@ -1,6 +1,6 @@
 const items = document.querySelector('.items');
 const input = document.querySelector('.footer_input');
-const addBtn = document.querySelector('footer_button');
+const addBtn = document.querySelector('.footer_button');
 
 function onAdd() {
       // 1. 사용자가 입력한 텍스트를 받아온다.
@@ -25,7 +25,7 @@ function createItem(text) {
     itemRow.setAttribute('class', 'item_row');
 
     const item = document.createElement('div');
-    item.setAttribute('class', item);
+    item.setAttribute('class', 'item');
 
     const name = document.createElement('span');
     name.setAttribute('class', 'item_name');
